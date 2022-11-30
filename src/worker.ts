@@ -18,7 +18,7 @@ interface Environment {
   SECRET_TELEGRAM_API_TOKEN: string;
   SECRET_TELEGRAM_API_TOKEN2: string;
   SECRET_TELEGRAM_API_TOKEN3: string;
-  KV_BOT_STORAGE: phobKVnamespace;
+  KV_BOT_STORAGE: KVNamespace;
 }
 
 export default {
